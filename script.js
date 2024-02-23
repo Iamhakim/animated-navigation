@@ -1,4 +1,6 @@
-const toggle = document.getElementById('toggle');
-const nav = document.getElementById('nav');
+const toggle = document.querySelector('.icon');
+const nav = document.querySelector('.actve');
 
-toggle.addEventListener('click', () => nav.classList.toggle('active'));
+toggle.addEventListener('click', () => {
+  nav.classList.toggle('.active');
+});
